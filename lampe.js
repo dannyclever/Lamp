@@ -10,3 +10,11 @@ function lampOn () {
         lamp.src = './img/ligada.jpg';
     }
 }
+
+function lampOff () {
+    if (!isLampBroken()) {
+        lamp.src = './img/desligada.jpg';
+        turnOnOff.textContent = 'Allumer';
+    }
+}
+
