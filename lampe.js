@@ -18,3 +18,6 @@ function lampOff () {
     }
 }
 
+function lampBroken () {
+    lamp.src = './img/quebrada.jpg';
+}
