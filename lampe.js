@@ -21,3 +21,13 @@ function lampOff () {
 function lampBroken () {
     lamp.src = './img/quebrada.jpg';
 }
+
+function lampOnOff () {
+    if (turnOnOff.textContent == 'Allumer') {
+        lampOn();
+        turnOnOff.textContent = 'Eteindre';
+    } else {
+        lampOff();
+        turnOnOff.textContent ='Allumer';
+    }
+}
