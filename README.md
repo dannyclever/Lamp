@@ -1,4 +1,4 @@
-# Lamp
+# Lampe
 
 > Practice testing JavaScript.
 Cette mini-project teste une ampoule. Elle alllume, éteind et en plus ça peut cassée en double click sur l'ampoule.
