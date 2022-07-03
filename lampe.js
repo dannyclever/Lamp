@@ -31,3 +31,9 @@ function lampOnOff () {
         turnOnOff.textContent ='Allumer';
     }
 }
+
+
+turnOnOff.addEventListener('click', lampOnOff);
+lamp.addEventListener('mouseover', lampOn);
+lamp.addEventListener('mouseleave', lampOff);
+lamp.addEventListener('dblclick', lampBroken);
